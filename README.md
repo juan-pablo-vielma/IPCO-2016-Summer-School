@@ -18,9 +18,8 @@ Follow the instructions [here](https://github.com/stevengj/julia-mit#installing-
 
 To start off, we will be using the following packages:
 - JuMP
-- Ipopt
-- Clp
 - GLPKMathProgInterface
+- Gadfly
 
 Install each one by running ``Pkg.add("xxx")`` where ``xxx`` is the package name
 from a Julia prompt or notebook. If you have a previous installation of Julia,
@@ -52,5 +51,5 @@ getvalue(y) = 1.0
 
 We will not have the time to go through all of the basic syntax points of Julia. For more materials on learning Julia,
 see [here](http://julialang.org/learning/). The JuMP documentation is located [here](http://www.juliaopt.org/JuMP.jl/0.13/).
-During the tutorial, we will be though through some of these example
+During the lecture, we will be though through some of the examples in this repository and in
 [notebooks](http://nbviewer.jupyter.org/github/JuliaOpt/juliaopt-notebooks/tree/master/notebooks/).
