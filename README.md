@@ -51,6 +51,11 @@ status = :Optimal
 getvalue(y) = 1.0
 ```
 
+To speed up computations during the lectures you may want to precompile the installed packages by running the following code: 
+```julia
+using GLPKMathProgInterface
+using Gadfly
+```
 
 ## More resources
 
