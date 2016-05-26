@@ -21,7 +21,7 @@ To start off, we will be using the following packages:
 - GLPKMathProgInterface
 - Gadfly
 
-To install them, run the following code (the first time you run the code you may see the message "INFO: Precompiling module JuMP" for a few minutes):
+To install them, run the following code:
 ```julia
 Pkg.add("JuMP")
 Pkg.add("GLPKMathProgInterface")
@@ -30,7 +30,7 @@ Pkg.add("Gadfly")
 If you have a previous installation of Julia,
 be sure to update your packages to the latest version by running ``Pkg.update()``.
 
-To test that your installation is working, run the following code:
+To test that your installation is working, run the following code (the first time you run the code you may see the message "INFO: Precompiling module JuMP" for a few minutes):
 
 ```julia
 using JuMP
