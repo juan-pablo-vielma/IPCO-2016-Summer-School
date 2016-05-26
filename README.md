@@ -20,12 +20,14 @@ To start off, we will be using the following packages:
 - JuMP
 - GLPKMathProgInterface
 - Gadfly
+- Interact
 
 To install them, run the following code:
 ```julia
 Pkg.add("JuMP")
 Pkg.add("GLPKMathProgInterface")
 Pkg.add("Gadfly")
+Pkg.add("Interact")
 ```
 If you have a previous installation of Julia,
 be sure to update your packages to the latest version by running ``Pkg.update()``.
@@ -55,6 +57,7 @@ To speed up computations during the lectures you may want to precompile the inst
 ```julia
 using GLPKMathProgInterface
 using Gadfly
+using Interact
 ```
 
 ## More resources
