@@ -1,1 +1,54 @@
 # IPCO-2016-Summer-School
+
+## Install Julia
+
+You should use Julia 0.4.0 or later.
+Binaries of Julia for all platforms are available [here](http://julialang.org/downloads/).
+
+- Windows and Linux users should choose the 64-bit version, unless using a very old computer.
+
+## Install IJulia/Jupyter
+
+[Jupyter](http://jupyter.org/) is a convenient notebook-based interface to present documents which interleave code, text, and equations.
+Follow the instructions [here](https://github.com/stevengj/julia-mit#installing-julia-and-ijulia) to set up IJulia.
+
+## Install Julia packages
+
+To start off, we will be using the following packages:
+- JuMP
+- Ipopt
+- Clp
+- GLPKMathProgInterface
+
+Install each one by running ``Pkg.add("xxx")`` where ``xxx`` is the package name
+from a Julia prompt or notebook. If you have a previous installation of Julia,
+be sure to update your packages to the latest version by running ``Pkg.update()``.
+
+To test that your installation is working, run the following code:
+
+```julia
+using JuMP
+m = Model()
+@variable(m, x >= 0)
+@variable(m, y >= 0)
+@constraint(m, 2x + y <= 1)
+@objective(m, Max, x+y)
+status = solve(m)
+@show status
+@show getvalue(y)
+```
+
+The output should be:
+
+```
+status = :Optimal
+getvalue(y) = 1.0
+```
+
+
+## More resources
+
+We will not have the time to go through all of the basic syntax points of Julia. For more materials on learning Julia,
+see [here](http://julialang.org/learning/). The JuMP documentation is located [here](http://www.juliaopt.org/JuMP.jl/0.13/).
+During the tutorial, we will be though through some of these example
+[notebooks](http://nbviewer.jupyter.org/github/JuliaOpt/juliaopt-notebooks/tree/master/notebooks/).
