@@ -1,8 +1,10 @@
 # IPCO-2016-Summer-School
 
+This site contains the materials for my lectures at the IPCO 2016 Summer School. Bellow you can find instructions for all the software needed for the lectures.
+
 ## Install Julia
 
-You should use Julia 0.4.0 or later.
+You should use the latest version of Julia 0.4.
 Binaries of Julia for all platforms are available [here](http://julialang.org/downloads/).
 
 - Windows and Linux users should choose the 64-bit version, unless using a very old computer.
