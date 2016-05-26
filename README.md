@@ -51,5 +51,5 @@ getvalue(y) = 1.0
 
 We will not have the time to go through all of the basic syntax points of Julia. For more materials on learning Julia,
 see [here](http://julialang.org/learning/). The JuMP documentation is located [here](http://www.juliaopt.org/JuMP.jl/0.13/).
-During the lecture, we will be though through some of the examples in this repository and in
+During the lecture, we will be though through some of the examples in this repository and in these
 [notebooks](http://nbviewer.jupyter.org/github/JuliaOpt/juliaopt-notebooks/tree/master/notebooks/).
