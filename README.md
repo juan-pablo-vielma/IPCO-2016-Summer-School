@@ -1,6 +1,6 @@
 # IPCO-2016-Summer-School
 
-This site contains the materials for my lectures at the IPCO 2016 Summer School. Bellow you can find instructions for all the software needed for the lectures.
+This site contains materials for the IPCO 2016 Summer School. Bellow you can find instructions for all the software needed for the lectures.
 
 ## Install Julia
 
